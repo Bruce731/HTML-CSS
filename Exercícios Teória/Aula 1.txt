@@ -1,0 +1,52 @@
+Capitulo 1
+Aula 1
+
+Criação da Internet:
+
+Surgiu em 1949 na guerra fria, criada para proteger centros militares.
+
+Primeiro protocolo criado para a internet: NCP- Networking Control Protocol. Tinha um grande problema, que parava toda a rede para fazer  uma transmissão.
+
+TCP- Transfer Control Protocol: Criado por Bob Kahn, tinha como objetivo eliminar o problema do NCP, tinha problema em identificar os pontos de comunicação.
+
+IP- International Protocol: Criado por Vint Cerf, identificava maquinas.
+
+Seu primeiro nome foi Arpanet e que mais tarde foi dividida em três "classes":
+
+1- MILNET: Internet direcionada para os militares.
+2- NSFNET: Internet direcionada para a ciência e para o apoio ciêntifico
+3- Comerciais: Rede comercial
+
+Depois de serem criadas, elas precisavam se conectar entre si, fazendo com que criassem a "Interconnect Networking", depois foi abreviada para "Internetworking" e depois mais uma vez abreviada para "Internet".
+
+
+Site para ver até onde a internet vai: www.submarinecablemap.com
+
+Internet: Conjunto de diversas redes.
+
+cliente: pessoa que esta acessando o site
+servido: basicamente um google
+
+TCP/IP: Quebra a mensagem em vários pacotes no servido e manda em fora de ordem, tempos diferentes, etc, para o cliente. Depois disso o TCP organiza os pacotes fazendo com que a mensagem fique em ordem novamente.
+
+Para enteder melhor assita ao vídeo a seguir : http://youtu.be/TNQsmPf24go
+
+
+Tim Beners- Lee: Criou o http e o HTML
+
+HTPP: Hiper Text Transfer Protocol
+HTML: Hiper Text Marqup Linguagem
+
+WWW - Word Wide Web/Rede de Alcançe Mundial: Nome alternativo para HTML e pode ser apenas usado com um navegador.
+
+
+FTP: Servidor de transferência de arquivos
+GOPHER: Especializado em hipertexto simples
+
+Protocolos de transferência: 
+SMTP: Recebe e envia E-mails
+POP3: Recebe e envia E-mails
+IMAP: Recebe e envia E-mails
+
+WWW - Parte da internet especializada em HTTP. Rede que está dentro da rede Internet
+HTTP é uma sub-rede do WWW

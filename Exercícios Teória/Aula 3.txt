@@ -1,0 +1,61 @@
+Capitulo 2 
+Aula 3
+
+HostNet
+O que é um Domínio?
+
+Domínio: É um nome que identifica um site.
+- É um nome único e que mais nada pode ter esse nome além do seu site).
+- É pago anualmente.
+- Vários TLDs (Top Level Domains)
+
+O que é uma Hospedagem?
+
+Hospedagem: É o local em que o site estará guardado.
+
+- Espaço para armazenar arquivos
+- Pago mensalmente
+- Escolhido por espaço, memória, recursos.
+
+o que é uma URL?
+
+URL é uma sigla para Uniform Resource Locator (Localizador de Recurso único/uniforme).
+É um endereço para direcionar para o servidor.
+
+Exemplo de uma identificação de domínio em uma URL:
+
+WWW.github.com/gustavoguanabara
+
+WWW Sub-domínio ( Vem depois Domínio)
+GitHub é o domínio
+.com é uma TLD
+Depois do / é chamado de caminho
+
+TLD (Top-Level Domain ou Domínio de Alto Nível)
+EX: 
+.com: Comercial (uso geral).
+.org: Organizações (geralmente sem fins lucrativos).
+.net: Redes (originalmente para infraestrutura, agora de uso geral).
+.edu: Instituições educacionais.
+.gov: Governos (restrito ao governo dos EUA).
+.info: Informações.
+
+GTLD (Generic Top-Level Domain ou Domínio de Alto Nível Genérico)
+EX:
+.tech: Tecnologia.
+.app: Aplicativos.
+.dev: Desenvolvimento.
+.shop: Lojas virtuais.
+.blog: Blogs.
+
+CCTLD (Coutren Code Top-Level Domain ou domínio de nível superior de código de país).
+EX:
+.br: Brasil.
+.us: Estados Unidos.
+.uk: Reino Unido.
+.jp: Japão.
+.de: Alemanha.
+
+https
+
+S: Utiliza SSL

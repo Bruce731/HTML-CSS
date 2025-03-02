@@ -1,0 +1,109 @@
+Capitulo 3
+Aula 4
+
+Diferença entre HTML, CSS e JavaScrpit
+HTML é uma linguagem de marcação em HiperTxeto, que é focada em conteúdo, podendo ser textos, imagens, vídeos, tabelas ETC.
+HyperText
+Markup
+Language
+
+CSS é uma linguagem em folhas de estilo em cascata, que é focada em design/atrativos visuais, podendo ser cores, sombras, tamanhos, posicionamentos ETC.
+Cascading
+Style
+Sheets
+
+JavaScript (JS) é uma lingugem de programação focada em interações, que é focada em criar menus, animações, popups, validações ETC.
+
+Conteúdo em HTML
+
+Tags: <>
+
+EXEMPLO:
+
+<h1>Título</h1>
+<p>Parágrafo</p>
+<img src="foto.png"alt="Foto">
+
+Explicação do código:
+
+Não pode ter espaço no código
+<img src="foto.png>: aqui irá mostrar a imagem original
+<alt="Foto">: caso não consiga mostrar a imagem original mostre um exemplo de foto
+
+Algumas Tags não tem fechamento ,como essas abaixo:
+
+EX: hr, meta, img ETC
+
+<h1>: Abertura de tag
+Título: Conteúdo
+</h1>: Fechamento de Tag
+<p>: Parágrafo
+<img>>: Abertura de tag
+<src(Source/Origem)/alt>: Parâmetro
+Foto: Valor
+
+Estilo em CSS
+
+Aqui estaremos ligando a HTML com a CSS
+Então o "h1" será do título de HTML
+CSS tem seletores, dentro das seletores temos as declarações, cada declaração é um par de propriedade e de valor.
+Exemplo:
+
+h1{
+font-famiy:Arial;
+font-size:20pt;
+color:blue;
+}
+
+
+Explicação do código:
+
+Dentro dos Seletores iremos colocar linhas
+As linhas são chamadas de "Declarações
+Toda declaração tem ; no final (Obrigatório)
+h1: Seletor
+Font-Family: Família da letra irá deixar de ser times(que é a família padrão do navegador) e vai passar a ser Arial.
+font-size: Tamanho da fonte
+Color: propriedade (Cor do título)
+Blue: Valor
+
+Estrutura Básica de Documento em HTML
+
+Todo documento tem essa estrutura básica obrigatória.
+Toda a primeira linha de um documento HTML tem que dizer a seguinte coisa: Eu vou dizer um site em HTML 5 (O seguinte comando para isso é:)
+
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8>
+  <meta name="viewport"content="width-scale=device-width,initial-scale=1.0">
+  <title>Document</title>
+
+
+ </head>
+ <body>
+      <h1>Olá, Mundo!</h1>
+
+
+
+ </body>
+</html>
+ 
+
+
+Explicação:
+
+<!DOCTYPE>: É uma tag especica de configuração para dizer que ele é HTML 5.(Depois disso a gente vai começar o HTML em si.
+Quando as tags estão dentro/para a direita é chamado de Indentação.
+<head>: Área de configurações
+<body>: área de corpo ( O corpo é onde fica o site)
+<meta charset="UTF-8>: Significa que o meu site vai ser compatível com características de UTF-8, isso vai me dar compatibilidade com acentuações, como por exemplo ~,^,´,` ETC.
+<meta name="viewport"content="width-scale=device-width,initial-scale=1.0">: Irá definir se o site vai abrir com zoom ou não.
+<h1>Olá, Mundo!</h1>: Título 
+
+Como funciona a HTML e CSS?
+
+Após digitar a URL no computador(cliente), ele vai acessar o DNS que vai retorna o IP, com isso você vai no servidor que tem HTML e CSS, assim você vai trazer uma cópia desse HTML e CSS para a sua maquina e com será disponibilizado no seu navegador. 
+
+Função do google com HTML e CSS:
+O google irá analisar cada linha das linguagens e produzir um resultado visual.

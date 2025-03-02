@@ -1,0 +1,73 @@
+Aula 2
+
+Representação de dados:
+
+Como o computador vê os dados?
+
+Todo e qualquer tipo de eletrônico como por exemplo computadores, celulares, tablets ETC, usa sinais para funcionar. Esses sinais são representados por 0 e 1.
+
+0: Com sinal
+1: Sem sinal
+
+Oque é Bit e Byte?
+
+O conjunto de 0 e 1 é chamado de "Binary Digit" (Digito Binario) que simplificado é chamado de "Bit".
+
+8 Bits é a porção mínima para que um dado seja representado.
+
+8 Bit = 8 Bytes
+
+Bit (b): É a menor unidade de informação digital. Pode assumir o valor 0 ou 1.
+Byte (B): É um conjunto de 8 bits. Geralmente, é usado para representar um único caractere, como uma letra ou número.
+
+No computador as letras são entedidas como Digitos Binários, ou seja, toda e qualquer letra nos eletrônicos são compreendidas como 0 e 1. Mas isso não quer dizer que são 0 e 1 , 0 e 1 são 2 estados (Alto e Baixo) chamado de Ondas quadradas.
+
+EX: 01000001 = A
+
+Tabela de Digito Binario: Código Multibyte
+
+UTF-8: (Unicode Transformation Format - 8 bits) é um padrão de codificação de caracteres que representa textos de forma eficiente e compatível com o Unicode. Ele é amplamente usado na web e em sistemas modernos.
+
+Múltiplos de Bytes
+
+Todo múltiplo de Bytes são representados por 1024 Bytes, que é apenas uma referência.
+
+1024 Bytes = 1 KB (KiloByte)
+1024 KB = 1 MB (MegaByte)
+1024 MB = 1 GB (GigaByte)
+1024 GB = 1 TB (TeraByte)
+1024 TB = 1 PB (PetaByte)
+1024 PB = 1 EB (ExaByte)
+1024 EM = 1 ZB (ZetaByte)
+1024 ZB = 1 YB (YotaByte)
+
+Diferença entre MB e Mb
+
+MB: MegaBytes (Armazenamento)
+Mb: Megabits (Transmissão)
+
+Como nos conectamos?
+
+Pessoa = Cliente
+Recursos = Internet
+
+o computador reconhece ondas quadradas e sistemas como o telefone usam senoidais.
+
+Ondas quadradas:Ondas quadradas são periódicas, alternando instantaneamente entre dois níveis (alto e baixo), com formato de picos e vales retangulares.
+Ondas Senoidais: São ondas suaves e periódicas, que seguem o formato de uma função seno, oscilando entre um valor máximo e mínimo.
+
+O que é um Modem?
+
+O modem transforma as ondas quadradas em ondas senoidais e vise e versa.
+
+Ondas Quadradas para Ondas Senoidais: Modulação
+Ondas Senoidais para Ondas Quadradas: Demodulação
+
+Como chegamos aos servidores?
+
+Todas as redes socias e outras coisas estão em um servidor, para que uma pessoa consiga acessar um servidor através da internet, acontece o seguite caso:
+
+Suponhamos que o cliente queira acessar o instagram, o cliente vaino google e digita "instagram", o modem irá pegar o IP do computador do cliente e mandará para o DNS e, o DNS irá olhar na sua "agenda" e ver  no servidor qual é o IP atual do instagram, depois do DNS ver o IP do instagram ele mandará de volta para o modem em vários pacotinhos e o modem mandará para o computador, fazendo assim com que o cliente tenha acesso ao intagram
+
+
+DNS - (Sistema de Nomes de Domínio): O sistema DNS da internet funciona praticamente como uma agenda de telefone ao gerenciar o mapeamento entre nomes e números

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Reenie+Beanie&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-titulo: 'caveat';
+    --font-paragrafo: 'sour-gummy';
+    --font-menu: 'bebas-neue';
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom,  rgba(0, 0, 228, 0.589),rgb(0, 113, 148),rgb(2, 4, 129) );
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(179, 18, 18, 0),rgb(0, 195, 255), rgba(0, 0, 228, 0.315));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: var(--font-titulo);
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.384);
+}
+
+header p {
+    font-size: 1.7em;
+    font-family: var(--font-paragrafo);
+    color: white;
+    margin: auto;
+    max-width: 600px;
+}
+nav {
+    margin: 60px 200px 0px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 2px rgba(12, 12, 12, 0.11);
+}
+.navegação{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.navegação:hover {
+    color: rgb(0, 195, 255);
+    background-color: rgb(18, 48, 139);
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-duration: .5s;
+}
+
+main {
+    min-height: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 2px 2px 10px 10px;
+}
+
+main h2 {
+    font-family: var(--font-titulo);
+    background-image: linear-gradient(to right, rgb(0, 0, 161), white);
+}
+
+main p {
+    text-indent: 1em;
+    line-height: 1.4em;
+    font-family: var(--font-paragrafo);
+}
+
+img {
+    width: 100%;
+    margin: 0;  
+    padding: 0; 
+    display: block; 
+    max-width: 100%;
+}
+
+li {
+    list-style-position: inside;
+    padding-top: 5px;
+    margin-left: 30px;
+    list-style: '✔️';
+}
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-family: var(--font-paragrafo);
+}

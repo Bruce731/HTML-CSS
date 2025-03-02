@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+background: linear-gradient(to right, #180E19, #5A11A8, #6438D3, #4243B7, #1A1112);
+display: flex;
+}
+
+.Principal {
+    text-align: center;
+}
+
+.p1 {
+    text-align: justify;
+    font-size: larger ;
+    justify-content: center;
+
+}
+
+.sobre-mim {
+    margin: 35px;
+    width: 600px;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px solid #ccc;
+    background-color: #35124d8c;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.habilidades {
+    margin: 50px;
+    width: 350px;
+    height: 440px;
+    padding: 10px;
+    background-color: #35124d8c;
+    border-radius: 5px;
+}
+
+.Projetos {
+    margin: auto;
+    height: auto;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px solid #ccc;
+    background-color: #35124d8c;
+}
+
+nav {
+    text-align: center;
+    align-items: center;
+    margin: 112px;
+    height: 234px;
+    width: 320px;
+    padding: 10px;
+    background-color: #35124d8c;
+    border-radius: 10px;
+
+}
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.links {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 280px;
+    display: flex;
+}

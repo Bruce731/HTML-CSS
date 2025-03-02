@@ -1,0 +1,14 @@
+Capitulo 3
+Aula 5
+
+Site Extático: É quando um site é entregue para todos os clientes da mesma forma, constituído pelo HTML, CSS, JavaScript.
+
+Client-Side: É uma tecnoligia que "ajuda" o cliente, como por exemplo as linguagens HTML, CSS e JavaScript. É comumente chamada de Front-end e é especializado em gerar a parte visual e interativa do site, sendo focado mais na experiência do usuário.
+
+Papel do servidor com a tecnologia Client-Side: Entrega o arquivo para uma pessoa.
+
+Server-side: É uma tecnmolgia que trabalha na parte do servidor, sendo mais comumente chamada de Back-end, sendo mais focado/interessado na interação do código dele com o servidor.
+
+Linguagens que é utilizado no server-site: PHP, JavaScript, C Sharp, Python, Ruby e Java.
+
+Full-Stack: Desenvolvedor que domina a parte Front-End e Back-End.
