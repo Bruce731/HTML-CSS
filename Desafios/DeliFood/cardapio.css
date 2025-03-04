@@ -1,3 +1,17 @@
+:root {
+    --primary-color: #A6460F;
+    --Background-body-color: #BF8845;
+    --main-color: #c26e3d;
+    --texto-color: tomato;
+    --nav-color: #7c5c45;
+    --bottom-color: #E63946;
+    --background-buttom-color: #C72C3E;
+    --links-color: beige;
+    --links-hover-color: #ddbb4d;
+}
+
+
+
 * {
     margin: 0px;
     padding: 0px;

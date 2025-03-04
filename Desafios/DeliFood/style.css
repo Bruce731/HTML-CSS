@@ -1,14 +1,26 @@
+:root {
+    --primary-color: #A6460F;
+    --Background-body-color: #BF8845;
+    --main-color: #c26e3d;
+    --texto-color: tomato;
+    --nav-color: #7c5c45;
+    --bottom-color: #E63946;
+    --background-buttom-color: #C72C3E;
+    --links-color: beige;
+    --links-hover-color: #ddbb4d;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body{
-    background-color: #F5DEB3;
+    background-color: var(--Background-body-color);
 }
 
 header {
-    background: linear-gradient(to right, #b98443, rgb(199, 147, 50)) ;
+    background: linear-gradient(to right, var(--primary-color), var(--Background-body-color)) ;
     font-size: 1.2em;
     padding-top: 30px;
     margin: -20px -10px 0px -10px;
@@ -46,7 +58,7 @@ h1 {
 }
 
 main {
-    background-color: #b58f74;
+    background-color: var(--main-color);
     margin: auto;
     padding: 10px;
     border-radius: 5px 5px 10px 10px;
@@ -88,7 +100,7 @@ img {
 }
 
 footer {
-    background-color: #b58f74;
+    background-image: linear-gradient(to right, var(--primary-color), var(--Background-body-color));
     padding: 5px;
     margin:auto;
     text-align: center;
