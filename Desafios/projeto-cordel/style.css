@@ -28,7 +28,7 @@ header h1 {
     font-family: var(--font1);
     font-variant: small-caps;
     padding-top: 50px;
-    font-size: 10%vw;
+    font-size: 10vw;
 }
 
 header p {
@@ -52,7 +52,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font2);
-    font-size: 5%vw;
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -66,11 +70,13 @@ section {
     background-size: cover;
     background-attachment: fixed;
     background-position: center right;
+    box-shadow: 6px 6px 13px 0px black;
 }
 
 .imagem > p {
     display: inline-block;
     background-color: rgba(24, 24, 24, 0.295);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 
 .imagem2 {
@@ -80,11 +86,13 @@ section {
     background-size: cover;
     background-attachment: fixed;
     background-position: center right;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
 }
 
 .imagem2 > p {
     display: inline-block;
     background-color: rgba(24, 24, 24, 0.295);
+    text-shadow: 2px 2px 0px black;
 }
 
 
