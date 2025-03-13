@@ -1,0 +1,45 @@
+Capitulo 8
+Aula 16
+
+Outras Formatações
+
+<Code>: Faz com que as letras tenham mono-espaçamento(Mono-espaçada)
+<pre>: Utilizado com a Tag "CODE", ele vai envelopar a Tag "CODE" e fazer com que o código tenha indagação
+EX:
+
+        <pre>
+            <code>
+                num = int(input("Digite um número: "))
+                if num % 2 == 0:
+                    print("O número {num} é PAR.")
+                else:
+                    print("O número
+                    {num} é ÍMPAR.")
+                print("Fim do programa.")
+            </code>
+        </pre>
+
+Tab: Espaçameto
+SHIFT + TAB: Tira o espaçamento
+
+Citações Simples
+
+<q>: Citação (quote - Citar)
+Citação que fica na mesma linha
+
+Citações Completas
+
+                                   				Para achar livros use o Books.google.com.br
+
+<Blockquote>: Cria citações mais longas
+Para colocar um link dentro da Tag acima, basta adicionar "Cite".
+
+EX:<Blockquote cite>=....
+Tem quebra de linha e tem um deslocamento horizontal para a lateral direita
+
+Abreviações
+
+<abbr>: Mostra o significado da sigla
+<bdo - Bi-Directional Override>: Inverti as letras
+rtl= Da direita para a esquerda (Right-to-left)
+ltr= Da esquerda para a direita (Left-to-right)

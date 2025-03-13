@@ -1,0 +1,43 @@
+Capitulo 14
+Aula 28
+
+Parte1
+
+Tipografia
+
+Surgiu no Século 15, foi popularizado pelo proclamado "Pai da Tipografia" Johannes Gutenberg.
+
+Johannes Gutenberg inventou Prensa Mecânica e é  também considerado o "Pai da Impresa". Mas a primeira pessoa a criar a Prensa Mecânica foi um Chines.
+
+A Tipografia surgiu quando a humanidade estava querendo melhorar a visualização/legibilidade das letras. Basicamente é o estudo de como eu vou escrever coisas no papel, sendo desenhar letras, tipos ETC.
+
+O termo tipografia vem de 2 palavras gregas, sendo:
+
+Tipo: Týpos: Impressão (Colocar algo no papel)
+Grafia: Graphia: Escrita
+
+Para o Design: Juntar boas Imagens, cores e Representações Gráficas
+
+
+Parte 2
+
+Anatomia dos Tipos
+
+A letras são "separadas" em algumas partes, sendo elas:
+
+Altura-x: É a altura das letras minúsculas
+Altura das Maiúsculas
+Ascendentes: É quando uma letra ultrapassa para a linha de cima, tipo a letra "b"
+Descendentes: É quando uma letra ultrapassa para a linha de baixo, tipo a letra "g"
+Corpo: É a altura total, somando todas as outras partes
+
+Serifa: Guia os nossos olhos para que assim possamos ler palavra por palavra (São bastante utilizadas em títulos)
+Não Serifadas: Não guia totalmente os olhos (utilizadas para textos)
+
+Glifos: Caracteres ou Letras
+Fonte: Conjunto de Glifos ou o arquivo que você baixou
+Familia Tipografica: São formatos diferentes de letras que estão na mesma fonte
+Monoespaçada: É uma fonte que faz com que todas as letras tenham o mesmo espaço (Pode ou não conter serifas)
+Fontes Scripts - HandWriting: Simulação da escrita a mão (Muito usada para representar comandos de linguagens de programação de computadores. Por isso é chamada de "Fonte de terminal" ou "Fonte de Console")
+Fonte Display: fonte de comemoração: Pode ser para representar animais, filmes, objetos, ETC
+ 

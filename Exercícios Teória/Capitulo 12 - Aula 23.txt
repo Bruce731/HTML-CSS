@@ -1,0 +1,16 @@
+Capitulo 12
+Aula 23
+
+CSS
+
+Estilo Inline
+
+Muda o estilo de uma linha 
+
+Estilo Locais / Internos
+
+Muda o estilo da pagina inteira
+
+Estilos Externos
+
+Muda p estilo de todas as paginas

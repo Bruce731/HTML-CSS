@@ -1,0 +1,33 @@
+Cápitulo 10
+Aula 18
+
+Links e Âncoras em HTML5
+
+Tag: <a> (Âncora)
+
+<a href="URL(Link)"> </a>
+href: referência em hypertexto
+
+h ref lang: Essa tag avisa ao navegador ou software a como lidar com o site caso ele esteja em uma língua (inglês, pt-br) diferente e o vsisitante opte por traduzi-lo.
+
+Quando for usar um link externo, utilize a seguinte Tag:
+
+target="_blank" rel="external"
+
+EX:
+
+  <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+
+Explicação do código:
+
+Target: Alvo
+_blank: Vai abrir o link em uma janela em branco
+rel: Relativo a...
+external: Link externo
+
+A tag target suporta outros valores além do "blank". Como por exemplo:
+
+‣ _self vai abrir o link na janela ou frame atual (Comportamento padrão) 
+‣ _top vai desfazer todos os frames e abrir o destino no navegador completo 
+‣ _parent similar ao uso do _top em uma referência à janela mãe 
+‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir

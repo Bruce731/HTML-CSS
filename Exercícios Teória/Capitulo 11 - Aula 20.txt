@@ -1,0 +1,22 @@
+Capitulo 11
+Aula 20
+
+Imagens Dinâmicas
+
+<Picture>: Cria diversas versões de uma mesma imagem, permitindo que o navegador escolha a melhor opção com base no tamanho da tela, resolução ou formato suportado.
+
+Media Type: Indica para quais tipos de dispositivos (como telas, impressoras ou leitores de tela) um recurso deve ser aplicado.
+
+<picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+</picture>
+
+Explicação do Código:
+
+Type: vai indicar o media type da imagem que usamos.
+
+srcset: Define qual imagem será carregada com base no tamanho da tela ou na resolução do dispositivo. 
+
+media define quando uma imagem do srcset será carregada, baseado no tamanho da tela.
+
+É importante organizar os <source> em ordem crescente de tamanho. Primeiro, coloque os menores (max-width menor) e depois os maiores. A última imagem dentro de <picture> deve ser a imagem padrão.

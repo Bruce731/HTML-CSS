@@ -1,0 +1,17 @@
+Capitulo 5
+Aula 8
+
+<br>: Break Row (Quebra de linha)
+&lt:(<) Estamos pedindo para colocar um simbolo de Menor que (less than) Sempre tem que ter ; no final
+&gt; (>) Estamos pedindo para colocar um simbolo de Maior que (Greater than)
+<!-->: Adicionar Comentário
+
+Símbolos:
+
+&reg;
+&copy;
+&trade;
+&uparrow;
+
+Emojis:      (Sempre que for colocar um emoji deve começar com:)
+&#x....

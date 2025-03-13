@@ -1,0 +1,17 @@
+Capitulo 7
+Aula 12
+
+Hierarquia de Títulos
+
+Como na vida, os títulos também tem a sua hierarquia e para facilitar isso na hora de escrever em HTML, colocarei a seguir o que cada um faz.
+
+<h1>:Título geral, assunto que será retratado.
+<h2>:Sub-Título (Ele está dentro do Título geral).
+<h3>:Está dentro do H3, seria um sub-título dentro de outro sub-título.
+<h4>:É uma mesma representação do H3.
+
+Essa seria a base que a hierarquia de títulos seguirá nas questão dos Títulos, eles seguiram até o <h6>.
+ex:
+h1: Seria o "nivel" do título.
+
+<lorem>: Um texto aleátorio para testar os títulos

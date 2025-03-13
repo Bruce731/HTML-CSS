@@ -1,0 +1,36 @@
+Capitulo 8
+Aula 13
+
+Semântica
+
+Segundo o dicionário Michaelis, “Semântica é o significado dos vocábulos, por oposição à sua forma”.
+
+Isso significa que a semântica valoriza mais o significado do que a forma. Um exemplo disso pode ser visto na evolução do HTML. No HTML4, havia uma mistura de forma e significado, enquanto o HTML5 prioriza o significado. Com essa mudança, o HTML5 foca na estrutura e no conteúdo, enquanto o CSS3 é responsável pela aparência e estilização.
+
+No HTML4, algumas tags deixaram de existir ou perderam seu significado com a evolução para o HTML5. A seguir, veremos algumas dessas tags que provavelmente não são mais utilizadas.
+
+Os seguintes elementos são totalmente obsoletos e não devem ser utilizados pelos desenvolvedores:
+
+<applet> → Substituído por <embed> ou <object>.
+<acronym> → Substituído por <abbr>.
+<bgsound> → Substituído por <audio>.
+<dir> → Substituído por <ul>.
+<frame>, <frameset>, <noframes> → Substituídos por <iframe> ou por inclusões do lado do servidor para mesclar partes invariantes da página.
+
+
+
+Na HTML4, usávamos tags como <b> para negrito, <u> para sublinhado e <blink> para piscar o texto, mas elas apenas mudavam a aparência sem dar significado. Por exemplo:
+
+HTML4:
+"Juvenal era um sujeito de muita sorte. E já começou de pequeno, onde morou na <u>Rua Marquês de Lira Filho</u>, um local de fácil acesso ao Centro da cidade".
+
+Aqui, o sublinhado só serve para chamar atenção visualmente, sem indicar que se trata de um endereço.
+
+Com a HTML5, o foco passou a ser a semântica, ou seja, as tags agora carregam significado:
+
+HTML5:
+Juvenal era um sujeito de muita sorte. E já começou de pequeno onde morou na <address>Rua Marquês de Lira Filho</address>, um local de fácil acesso ao Centro da cidade.
+
+Agora, o navegador entende que "Rua Marquês de Lira Filho" é um endereço e pode até sugerir um mapa.
+
+A W3C tem reforçado esse conceito, removendo tags focadas apenas no visual e deixando a aparência para o CSS.

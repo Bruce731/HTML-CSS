@@ -1,0 +1,22 @@
+Capitulo 16
+Aula 34
+
+User agente: Navegador que está exibindo o seu conteúdo
+
+display: block; é uma propriedade CSS que faz com que um elemento ocupe toda a largura disponível e inicie em uma nova linha. Alguns elementos que já são block por padrão incluem <div>, <p>, <h1> a <h6>, entre outros.
+
+Um pouco sobre Flex-Blox
+
+Propriedades principais do Flexbox:
+
+display: flex; → Ativa o Flexbox no elemento pai (container).
+
+flex-direction: row | column; → Define a direção dos itens (linha ou coluna).
+
+justify-content → Controla o alinhamento horizontal.
+
+align-items → Controla o alinhamento vertical.
+
+flex-wrap → Permite que os itens quebrem linha se necessário.
+
+gap → Define o espaçamento entre os itens.

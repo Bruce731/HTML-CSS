@@ -1,0 +1,11 @@
+Capitulo 13
+Aula 27
+
+Criando um exemplo de site
+
+Width: Largura
+Padding: Cria uma área dentro da caixa
+Margin: Cria uma área ao redor do "texto" (como se fosse um espaço fora de uma caixa)
+Margin: auto = Conforme vc diminua a área da página, o texto vai se ajustando. 
+
+Main: Irá definir a parte principal da sua página

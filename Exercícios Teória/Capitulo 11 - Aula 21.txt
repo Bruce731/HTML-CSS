@@ -1,0 +1,39 @@
+Capitulo 11
+Aula 21
+
+Colocando áudio no seu site
+
+Para colocar-mos um áudio no seu site, é necessário usar a seguinte tag:
+
+"Jeito errado"
+ <audio src="midia/happy-mistake.mp3" controls autoplay></audio> 
+
+controls: exibe os controles de reprodução. 
+Autoplay: inicia a reprodução automaticamente.
+Suporta MP3, WAV, OGG
+
+Tente evitar o arquivo WAV, pois são arquivos muito grandes.
+
+"Jeito certo"
+
+<audio preload="metadata"autoplay controls loop>
+   <source src="midia/guanacast-33.mp3" type="audio/mp3">
+
+Explicação do código:
+
+Preload: Indica se o áudio será pré-carregado ou não e aceita três 
+valores: 
+
+Metadata: vai carregar apenas as informações sobre o arquivo (tamanho, 
+tempo, informações de direitos, etc). (Mais indicado)
+ 
+None: Não vai carregar absolutamente nada até que o usuário clique no botão 
+play ou um script inicie a reprodução 
+
+Auto (padrão): Vai carregar o arquivo de áudio inteiro assim que a página for carregada, mesmo que o usuário nunca aperte o play. (Menos indicado, pois pode acabar pesando demais o site de uma forma desnecessaria.)
+
+Controls: Vai apresentar o player na tela. Caso não seja colocado na tag <audio>, o controle será transparente e o usuário não poderá interagir com ele.
+ 
+Autoplay: Quando inserido, vai iniciar a reprodução do áudio automaticamente assim que a página for carregada. 
+
+Loop: Vai fazer com que o áudio seja repetido eternamente assim que terminar a sua reprodução.

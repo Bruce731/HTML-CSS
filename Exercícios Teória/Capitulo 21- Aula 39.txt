@@ -1,0 +1,77 @@
+Capitulo 21
+Aula 39
+
+Tabelas
+
+Para criar uma tabela use a tag "Table"
+
+Hierarquia de Tabelas (simples)
+
+TABLE = Tabelas
+TABLE ROW = linhas de tabelas
+	TABLE HEADER = Cabeçalho de tabela
+	TABLE DATA = dado de tabela
+
+border-collapse: Faz com que as bordas se juntem.
+
+text-align: center; /* alinhamento horinzontal */
+vertical-align: top ; /*alinhamento vertival */
+
+
+Anatomia para tabelas grandes
+TABLE
+   CAPTION
+   THEAD
+       tr, td, th
+   TBODY
+       tr, td, th
+   TFOOT
+       tr, td, th
+
+Caption: Defini um título ou legenda para uma tabela
+THead: Cabeçalho da Tabela
+TBody: Corpo da Tabela
+TFooter: Rodapé da Tabela
+TH: Table Header (Cabeçalho da Tabela)
+TR: Table Row (Linha da Tabela)
+TD: Table Dada (Dados da Tabela)
+
+:nth-child(n)
+
+n: valor
+
+Onde n pode ser:
+
+Um número: Exemplo :nth-child(2) seleciona o segundo elemento.
+
+Palavra-chave odd ou even: Exemplo :nth-child(odd) seleciona os elementos nas posições ímpares (1, 3, 5,...).
+
+Uma fórmula: Exemplo :nth-child(2n) seleciona todos os elementos nas posições 2, 4, 6, 8,... (múltiplos de 2).
+
+
+position: sticky
+
+É usada para criar um elemento que fica fixo na tela enquanto você rola a página.
+
+
+Escopo de tabela
+
+scope="col"
+
+Simboliza para o navegador que todas as células pertencem aquela coluna.
+
+EX:
+
+1 2 3	Aqui indicaremos que as letras A,B,C são da coluna 1
+A D G
+B E H
+C F I
+
+Mesclagem de Células
+
+Colspan="2"
+Irá mesclar (Juntar)/ fazer com que a célula ocupe 2 espaços em coluna. 
+
+Rowspan="2"
+
+Irá mesclar (Juntar)/ fazer com que a célula ocupe 2 espaços em linha. 

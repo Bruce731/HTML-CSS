@@ -1,0 +1,18 @@
+Capitulo 16
+Aula 35
+
+Grouping Tags
+
+Header: Cabeçalho
+Nav: Colocaremos links
+Main: Conteúdo Principal do site
+Section: Cria seções para uma página
+Article: é usada para representar um conteúdo autônomo e independente, sem depender de outros elementos da página.
+Aside: é usada para representar um conteúdo complementar ou secundário ao conteúdo principal da página, informações do site.
+Footer: Rodapé
+
+Quando usar <aside>?
+✅ Para informações adicionais que não são essenciais para o conteúdo principal.
+✅ Em blogs, para exibir biografias de autores, posts relacionados ou widgets.
+✅ Em artigos, para notas, definições ou referências extras.
+

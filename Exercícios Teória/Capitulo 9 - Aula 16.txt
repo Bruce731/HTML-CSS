@@ -1,0 +1,101 @@
+Capitulo 9
+Aula 17
+
+Listas
+
+Trabalhando com Listas
+
+Listas Ordenadas (Ordered Lists)
+
+É uma listas onde cada passo-a-passo é muito importante. Para se criar uma listas ordenada, você pode usar a tag "<ol> e para númera-las use a tag "<li>", veja um exemplo abaixo de como se deve ser feito.
+
+<ol>
+	<li>Item 1</li>		(/li- Opcional)
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4/li>
+	<li>Item 5</li>
+</ol>
+
+Personalização de listas ordenadas
+
+A tag <ol> possui um parâmetro type, onde configuramos o tipo de marcador da lista atual. As opções de valores para esse parâmetro são: 
+‣ 1 - Valor padrão. Cria listas numeradas. Ex: 1, 2, 3, 4, … 
+‣ A - Cria listas alfabéticas em maiúsculas. Ex: A, B, C, D, … 
+‣ a - Cria listas alfabéticas em minúsculas. Ex: a, b, c, d, … 
+‣ I - Cria listas com algarismos romanos em maiúsculas. Ex: I, II, III, IV, … 
+‣ i - Cria listas com algarismos romanos em minúsculas. Ex: i, ii, iii, iv, … 
+
+Você também pode indicar o início da contagem usando o parâmetro start. 
+Por exemplo, a tag <ol type=“I” start = “5”> vai gerar itens numerados como V, 
+VI, VII, VIII, IX, … 
+
+a minúsculo: letras em minúsculo
+
+Listas não Ordenadas (Unordered Lists)
+
+Chamada também de listas com marcadores, são listas onde a ordem não influenciará no significado. Para criar a lista não ordenada, você utilizará a tag <ul>. Veja um exemplo abaixo de como se deve ser feito.
+
+<ul>
+	<li>Item 1</li>		(/li- Opcional)
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4/li>
+	<li>Item 5</li>
+</ul>
+
+Além disso, é possível alterar a propriedade da tag <ul> com os seguintes valores:
+
+‣ disc - padrão. Uma bola preta totalmente pintada.
+‣ circle - Uma bola com uma borda preta e sem preenchimento. 
+‣ square - Um pequeno quadrado preto totalmente pintado.
+
+Juntando Listas
+
+Para se juntar as listas, é necessário , configurando uma lista dentro de outra lista. Veja o exemplo a seguir: 
+
+<ol>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<ol type="a">
+		<li>Item 2.1</li>
+		<li>Item 2.2</li>
+		<li>Item 2.3</li>
+	</ol>
+	<li>Item 3</li>
+	<li>Item 4/li>
+	<li>Item 5</li>
+</ol>
+
+		<!--Para começar uma lista de uma letra especifica, tem que colocar o numero que a letra representa. EX: e=5 -->
+O resultado visual do código que vimos anteriormente será semelhante ao que temos a seguir: 
+
+1. Item 1
+2. Item 2
+	a. Item 2.1
+	b. Item 2.2
+	c. Item 2.3
+3. Item 3
+4. Item 4
+5. Item 5
+
+Note que os itens da lista interna (a, b, c, …) está deslocado para a direita em relação ao item 2, do qual essa sub-lista é filha.[
+
+Além de aninhar listas ordenadas, podemos juntar listas <ul> com <ol> e vice-versa. As listas internas sempre terão deslocamento interno para a direita.
+
+Aninhamento: Uma coisa dentro da outra, como se fosse um ninho 
+
+Atalho: M1 + ALT
+
+Lista de Definições (Definition List)
+
+É como se fosse um dicionário, temos os termos e as suas descrições. É uma lista sem demarcadores, mas bem útil em alguns casos. Para fazer um código que tenha essa listas como base, é necessário usar as tags a seguir:
+
+<dl>: Definition List
+<dt>: Definition Term (Define um termo. EX:Html)
+<dd>: Definition Description (Define a descrição de um item. Ex: HyperText
+Markup Language)
+
+EX:
+
+

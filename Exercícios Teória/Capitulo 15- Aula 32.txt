@@ -1,0 +1,31 @@
+Capitulo 15
+Aula 32
+
+Id em  CSS
+
+Para colocar um ID (Identificador) em alguma Tag, usaremos o seguinte código:
+
+id="Nome"
+
+EX:
+
+ <h1 id="Principal">Criando Sites em HTML e CSS</h1>
+
+Quando for colocar nas CSS, faça do seguinte jeito:
+
+h1#Principal {
+    text-align: center;
+}
+
+Sempre coloque a #, pois ela identifica id
+
+
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+
+
+Id: Unico
+Class: Multiplo
+
+id só pode ter um por página
+Class pode ter vários

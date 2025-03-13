@@ -1,0 +1,26 @@
+Capitulo 11
+Aula 22
+
+Colocando vídeo
+
+
+Com a expansão da banda larga no Brasil, tornou-se possível assistir vídeos em alta qualidade, inclusive em 4K no 4G. Para inserir um vídeo em um site, usamos a tag `<video>` do HTML5. Alguns atributos importantes são:  
+
+- **width**: define a largura do vídeo (exemplo: 600px).  
+- **poster**: exibe uma imagem antes da reprodução.  
+- **controls**: exibe os controles do player.  
+- **autoplay**: inicia o vídeo automaticamente ao carregar a página.
+
+ <video width="560" poster="imagens/Captura de tela 2025-02-12 212309.png" controls>
+        <source src="midia/meu-video.m4v" 
+
+Que formatos são esses?
+Arquivos de vídeo não são tão simples quanto imagens e 
+áudios, onde o formato indica o padrão para abrir e 
+reproduzir a mídia. Vídeos possuem formatos e codecs e 
+isso pode tornar o vídeo inviável de ser reproduzido pela 
+maioria dos navegadores na maioria dos dispositivos. É 
+preciso prestar muita atenção nesse pequeno detalhe. 
+Os formatos suportados são MPEG, WEBM e OGG, mas os 
+dois primeiros são os que possuem maior compatibilidade
+com os navegadores atualmente.

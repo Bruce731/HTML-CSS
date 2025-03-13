@@ -1,0 +1,66 @@
+Modulo 3
+Capitulo 19
+Aula 38
+
+Imagens
+
+background-image: url(imagens/wallpaper001.jpg);
+background-size: 100px 100px;		(Altera o tamanho da imagem)
+background-repeat: no-repeat;		(Altera quantas vezes a imagem irá se repetir)
+		   repeat-x		(Repete a imagem na horizontal)
+		   repeat-y		(Repete a imagem na vertical)
+
+Background-Size
+
+A propriedade background-size no CSS define o tamanho da imagem de fundo. Alguns valores comuns são:
+
+auto(padrão): Mantém o tamanho original da imagem.
+cover: Ajusta a imagem para cobrir todo o elemento, mantendo a proporção.
+contain: Ajusta a imagem para caber dentro do elemento sem cortar, mantendo a proporção.
+Valores específicos: Pode definir largura e altura em px, %, em, etc.
+
+
+Background-Attachment
+
+A propriedade background-attachment no CSS define como a imagem de fundo se comporta em relação à rolagem da página. Os valores principais são:
+
+scroll(padrão): A imagem de fundo rola junto com o conteúdo.
+fixed: A imagem de fundo permanece fixa enquanto o conteúdo rola.
+local: Uma imagem de fundo rola junto com o elemento ao qual é aplicado.
+
+
+Position
+
+A propriedade position no CSS define como um elemento é posicionado na página. Os valores principais são:
+
+static(padrão): O elemento segue o fluxo normal do documento.
+relative: O elemento pode ser deslocado em relação à sua posição original com top, left, righte bottom.
+absolute: O elemento é removido do fluxo normal e posicionado em relação ao elemento ancestral mais próximo com position: relative, ou ao <html>se não estiver posicionado ancestral.
+fixed: O elemento é fixado na tela, independente da rolagem.
+sticky: O elemento age como relativeaté atingir um ponto específico da rolagem, onde se fixa como fixed.
+
+Relative e Absolute serão complementares
+
+Relative: Faz com que o conteúdo use o container como uma referência para ele, ou seja, ele usará o centro do container como se fosse a sua posição padrão.
+
+
+Absolute: Caso não use Left, Right, Top e Bottom, não acontecerá nada, a única diferença será quadno usa-los, podendo assim mover o conteúdo em relação ao container.
+
+
+EX: Contêiner (Gabinete) = Relative
+    Conteúdo (Peças internas) = Absolute
+
+O meu Container(Gabinete) fará com que meu conteúdo use ele como referência
+
+Meu conteúdo(Peças internas) se centralizará com base no centro do meu container(Gabinete). 
+
+ShortHand - Background
+                
+	Color > Image > Position > Repeat > [Size] > Attachment
+
+
+
+font-weight: Altera a espessura (peso) da fonte, deixando o texto mais grosso ou mais fino.
+font-variant: Modifica o estilo tipográfico, como letras pequenas em maiúsculas (small caps).
+text-transform: Ajusta a capitalização do texto, como tudo maiúsculo ou minúsculo.
+

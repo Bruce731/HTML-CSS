@@ -1,0 +1,78 @@
+Modulo 2
+Capitulo 13
+Aula 25
+				Sempre o fundo branco e letra preta
+Harmonia de Cores
+
+Cores Primárias
+
+Amarelo
+Vermelho
+Azul
+
+Cores Segundárias
+
+Laranja
+Violeta
+Verde
+
+Cores Terciárias
+
+São cores misturadas com as primárias e secudárias
+
+EX:
+
+Amarelo-esverdeado
+Cor Primária: Amarelo 
+Cor Secudária:Verde
+ 
+Azul-arroxeado
+Cor Primária: Azul 
+Cor Secudária: Roxo
+
+Tons Pastéis
+
+------------------------------------------------------------------------
+
+Cores Complementares
+
+São cores que mais se combinam
+
+EX:
+
+Violeta e Amarelo
+Vermelho e Verde
+Azul e Laranja
+
+Cores Análogas
+
+São cores que estão ao lado uma da outra
+
+EX:
+Azul
+Roxo
+Violeta
+
+Cores Análogas Relacionadas
+
+Pega um cor vizinha uma da outra e depois pula uma cor e escolhe a que está depois da que você pulou
+
+Cores Intercaladas
+
+Escolhe uma cor, pula a próxima, Escolhe uma cor, pula a próxima e por ai vai
+
+Cores Triádicas
+
+Pula 3 cores e pega 1 cor, pula 3 e escolhe 1 e por ai vai
+
+Cores em Quadrado
+
+Pula 2 e escolhe 1, Pula 2 e escolhe 1 e por ai vai
+
+Cores Tetrádicas
+
+Pegue uma cor aleatória, depois ache a cor complementar dela, pegue outra cor aleatória e depois ache a complementar. (Forma um Retângulo)
+
+Monocromia
+
+Trabalha com apenas uma cor, modificando apenas a saturação e iluminosidade

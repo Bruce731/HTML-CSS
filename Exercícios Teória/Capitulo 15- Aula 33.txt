@@ -1,0 +1,42 @@
+Capitulo 15
+Aula 33
+
+Pseudo-Classes
+		(ShortHand do Border: Largura Tipo Cor)
+
+Pseudo-Classes define o estado de um elemento
+
+EX:
+
+div:hover 
+
+hover: aplica algum elemento quando vc passa o mouse em cima dele
+
+Para esconder tudo que está dentro de uma div, use:
+
+EX: div > p
+
+Div: é tipo uma caixa que vc cria
+
+Display: inline-block = Deixa tudo na mesma linha
+
+Pseudo-Elemento:
+
+Um pseudo-elemento é uma palavra-chave usada em CSS para estilizar partes específicas de um elemento sem precisar adicionar classes ou ID.
+
+EX:
+
+::before → Insere conteúdo antes do elemento.
+::after → Insere conteúdo depois do elemento.
+::first-letter → Estiliza a primeira letra do texto.
+::first-line → Estiliza a primeira linha do texto.
+::selection → Estiliza o texto selecionado pelo usuário.
+
+
+Seletores Personalizados
+            #  = id
+            .  = class
+            :  = pseudo-classe
+            :: = pseudo-elemento
+            >  = chilldren (Filho)
+

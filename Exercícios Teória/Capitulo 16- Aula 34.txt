@@ -1,0 +1,16 @@
+Capitulo 16
+Aula 34
+
+Modelos de Caixas
+
+o que é?
+
+tudo que é exibido na tela é exibido em forma de caixa
+
+aninhamento de caixa
+		aninhamento: algo dentro de outra
+uma caixa dentro da outro
+
+padding: define o espaçamento interno entre o conteúdo (texto) e a borda.
+
+margin: define o espaçamento externo entre um elemento e seus elementos vizinhos.

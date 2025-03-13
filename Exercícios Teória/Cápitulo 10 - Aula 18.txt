@@ -1,0 +1,29 @@
+Cápitulo 10
+Aula 19
+
+Links e Âncoras em HTML5
+
+Links internos
+
+Para colocar links internos no seu site, você pode criar uma outra página e colocar a "URL" dentro do "href". Mas para direcionar a página tem que estar dentro da mesma pasta para poder direciona-lo .
+
+EX:
+<p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+
+Valores para poder usar dentro do rel:
+
+‣next indica que o link é para a próxima parte do documento atual 
+‣prev indica que o link é para a parte anterior do documento atual 
+‣author indica que é um link para o site do autor do artigo atual 
+‣external indica que é um link para outro site que não faz parte do site
+‣nofollow indica que para o mecanismo de busca não perpetue/autorize que vá no site de uma pessoa e comece a indexar
+‣dofollow contrario de nofollow
+
+Terceira Página
+
+Crie uma pasta dentro da pasta do ex010, logo em seguida crie um arquivo.
+Para fazer um link que volte para a primeira página use como esta no exemplo a seguir:
+
+<p><a href="../index.html">Voltar para a pirmeira página</a></p>
+
+../ sinaliza que irá voltar para o arquivo da pasta anterior.

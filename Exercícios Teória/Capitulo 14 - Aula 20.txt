@@ -1,0 +1,87 @@
+Capitulo 14
+Aula 30
+
+Peso, Estilo e Shorthand font
+
+font-weight: peso
+width: Largura
+height: Altura
+
+Valores que o "weight" aceita:
+
+Lighter, normal, bold, bolder
+Do mais leve até o mais pesado
+
+Peso com valores numéricos, sendo:
+
+100-900
+
+Font-Style: Estiliza o texto
+
+Ex: Italico Negrito 
+
+Font-decoration: Permite colocar em sublinhado
+
+A fonte que vc escolher tem que suportar esses estilos de textos.
+
+Shorthand: Comprime todos os códigos a segur em um único
+	Ordem para usar o Shorthand:  font-style -> fonte-weight -> font-size -> font-family
+Sem Shorthand:
+         font-family: 'work sans', Arial, Helvetica, sans-serif;
+         font-weight: bolder
+         font-size: 3em;
+         font-style: italic;
+
+Com Shorthand
+
+font: italic bolder 3em 'work sans', Arial, Helvetica, sans-serif;
+
+font-style -> fonte-weight -> font-size -> font-family
+
+
+Anotação mais organizada
+
+HORA DA REVISÃO
+
+Peso (negrito):	
+
+		- fonte mais cheia (negrito) ou fina
+		- não serve para fontes simples (arial, verdana, times,...)
+		- serve pra fontes como Work Sans (import google)
+
+	font-weight: nome ou número;	    
+
+   nome:	- lighter		número:	- 100   - 500   - 900
+		- normal				- 200   - 600
+		- bold				- 300   - 700
+		- bolder				- 400   - 800
+
+
+Estilo (itálico):
+
+	font-style: valor;		valor:  - normal
+							   - italic
+
+Decoração (sublinhado):
+
+	text-decoration: underline;
+
+
+Shorthand font: simplificando fontes.
+
+   Ex:	 font-family: 'Work Sans', sans-serif;
+	         font-weight: bolder;
+	         font-size: 3em;
+	         font-style: italic;
+
+      Simplificando:
+
+		font:  italic  bolder  3em  'Work Sans', sans-serif;
+
+- A sequência deve ser:	
+
+		font-style   ->   font-weight   ->   font-size   ->   font-family;
+
+- Não precisa ter todas as propriedades, mas a sequência deve ser seguida;
+
+  Ex:		font:  bold  2em  'Work Sans';

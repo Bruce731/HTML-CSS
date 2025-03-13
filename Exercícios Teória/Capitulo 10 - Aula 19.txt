@@ -1,0 +1,15 @@
+Capitulo 10
+Aula 19
+
+Links para Downloads
+
+Para colocar um link de download, coloque o seguinte código:
+
+li><a href="livro/10 - Ligações em toda parte.pdf" download="meulivro.pdf" type="aplication/pdf">Baixar um livro em PDF</a></li>
+        <li><a href="#">Livro Compactado em ZIP</li>
+
+Explicação:
+download: nome do download
+type: Indica que tipo de arquivo esta sendo baixado
+
+Site para type de download: iana.org

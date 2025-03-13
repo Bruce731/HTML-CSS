@@ -1,0 +1,15 @@
+Capitulo 14
+Aula 29
+
+Tamanho de Fontes e suas Medidas
+
+Medidas Absolutas: 
+cm, mm, in, px, pt, pc
+Centímetro, Milímetro, Polegada, Pixel, Ponto, Paica
+
+Medidas Relativas:
+em, ex, rem, vw, vh, %
+
+O recomendado para o uso de medidas é usar px e em
+
+16px geralmente = 1em

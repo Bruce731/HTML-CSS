@@ -1,0 +1,18 @@
+Capitulo 13
+Aula 26
+
+Degradê com CSS
+
+Para se criar degradê é necessário usar a tag:
+
+background-image: linear-gradiente (Direção, cor, cor)
+
+EX:
+
+background-image: linear-gradiente (to right, White, blue)
+
+Configuração Global das CSS: *
+
+Definir altura da página: height 100%
+
+Sites para o uso/escolha de cores: color.Adobe, Paletton e coolors

@@ -1,0 +1,14 @@
+FlexBox
+
+justify-content: alinha os itens na horizontal
+align-itens: alinha os itens na vertical
+
+    justify-content: space-between;        Dá o maior espaço possível entre os elementos
+
+        justify-content: space-evenly;     dá o mesmo espaço para todos os elementos
+	
+    justify-content: space-around;	 dá o mesmo espaço para todos os elementos, mas no inicio e no final terá a metade
+
+    justify-content: flex-start;	espaçamento por padrão
+
+	justify-content: flex-end;	alinha os itens no final

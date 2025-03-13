@@ -1,0 +1,34 @@
+Capitulo 6
+Aula 9,10 e 11
+
+Formatos de imagens:
+
+JPEG: É recomendado usar para colocar imagens grandes.
+PNG: É recomendado usar só quando precisar de uma imagem com o fundo transparente.
+
+Imagens:
+
+Tamanho ideal para colocar em um site: 650
+Resolução: 50% da imagem original
+Qualidade boa: 70%
+
+Para colocar imagem em um site é necessário usar o seguinte código:
+
+<img src="Imagem" alt="">
+
+scr: Source(Origem)
+alt: alternative(Alternativo)
+
+Quando for colocar algum texto na parte alternativa, coloque detalhadamente, pois caso uma pessoa seja deficiente visual o navegador vai ser capaz de descrever a imagem para a pessoa. Além de que os textos alternativos ajudam o google a saber o que tem dentro das foto e assim exibi-las no resultados do google imagens.
+
+Atalho para colocar imagem: Ctrl + Espaço
+
+Favicon
+
+como colocar o Favicon?
+
+use o código a seguir:
+
+link: favicon
+
+Para baixar um ICON, vá no site Favicon.cc

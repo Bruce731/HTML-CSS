@@ -1,0 +1,48 @@
+Capitulo 8
+Aula 14 e 15
+
+Negrito e Itálico
+
+Atalho para colocar comandos:
+
+Ctrl + Shift + p =  Enter = Coloque o comando que você deseja
+Para conseguir acessar a opção do atalho, Coloque o seguinte nome: 
+Emmet: Wrap with Abbreviation
+
+Não semânticos:
+<b>: Negrito (Não semântico)
+<i>: Itálico (Não semântico)
+
+Semâticos:
+<strong>: Negrito
+<em>: Itálico
+
+<mark>: Marca texto
+Para alterar a cor do marca texto usaremos o CSS com a seguinte tag:
+
+Style: CSS
+EX: <mark style:"background-color:">
+
+O indicado é colocar a cor na parte "head", ficando assim:
+
+<style>
+	mark{
+		background-color:...
+	}
+</style>
+
+Textos Grande e Pequenos								Obsoleto: Que não se usa mais ou que deixará de existir.
+<big>: Deixa a letra/texto grande (é uma tag obsoleta, que não existe mais)
+<small>: Deixa a letra/texto pequeno
+<del>: Indica que o texto "foi deletado", mas ainda está ali e que não deve ser ingnorada pelo leitor. (tag usada antes e obsoleta: <strike>)
+<ins> (Semântica): Indica que o texto está ali, deve ser lido e que deve prestar atenção nele. (tag usada antes e obsoleta: <u> não semântica)
+
+Texto sobrescrito
+
+Para inserir coisas do tipo x20+3, com a tag <sup>
+<sup>: Deixa as coisas em cima
+
+Texto subcrito
+
+Para inserir coisas do tipo H2O, com a tag <sub>
+<sub>: Deixa as coisas em baixo 

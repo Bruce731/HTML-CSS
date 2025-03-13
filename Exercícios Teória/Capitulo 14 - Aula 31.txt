@@ -1,0 +1,42 @@
+Capitulo 14
+Aula 31
+
+Fontes
+			font.google = Fontes
+Para se usar fontes é necessário "importar" elas de algum site. Um site que é recomendado, seria o google fonts.
+EX:
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+
+Fontes Externas
+
+Fontes externas seriam fontes que vc pode pegar de sites ou caso o seu cliente mande uma especifica. Para usa-las, basta utilizar a tag @Font-Face.
+		Dafont = Site para Fontes Externas
+Font Face:
+
+@font-face é uma regra do CSS que permite usar fontes personalizadas em um site, mesmo que não estejam instaladas no dispositivo do usuário.
+
+Ex:
+        @font-face {
+     font-family: 'larry'; (ak vc dará um nome para a fonte)
+     src: url(fontes/love\ larry\ ttf.ttf) format('truetype');(ak é a fonte)
+
+O "Format" irá colocar o tipo de arquivo que a fonte é.
+
+Alguns tipos de formatos de certos navegadores possam aceitar são:
+
+Tipos de format() 
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+Alinhamento
+
+Para se usar alinhamentos, basta utilizar a tag:
+
+Text-align: Valor
+Text-indent: Serve para deixar um espaço no inicio do texto (Indetação)
