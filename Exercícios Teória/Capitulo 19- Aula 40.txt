@@ -67,6 +67,16 @@ A D G
 B E H
 C F I
 
+scope="row"
+
+O atributo scope="row"é usado em uma célula <th>para indicar que o cabeçalho descreve toda a linha da tabela. Isso ajuda os leitores de tela a identificar que o título está relacionado às células seguintes na mesma linha.
+
+scope="rowgrup"
+
+simbolizar mais de um dado na mesma linha
+
+Tudo isso vale também para coluna
+
 Mesclagem de Células
 
 Colspan="2"
@@ -75,3 +85,10 @@ Irá mesclar (Juntar)/ fazer com que a célula ocupe 2 espaços em coluna.
 Rowspan="2"
 
 Irá mesclar (Juntar)/ fazer com que a célula ocupe 2 espaços em linha. 
+
+
+Responsividade de Tabelas
+
+Só colocar a tabela toda dentro de uma DIV e depois usar a tag 
+
+overflow
