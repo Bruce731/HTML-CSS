@@ -1,0 +1,58 @@
+Capitulo 22
+Aula 41
+
+Iframe
+
+É um frame(Quadros) em linha. (inlineFrame)
+inlineFrame
+
+Alguns sites não deixam vc usar o iframe
+
+O atributo scrolling=""era usado antigamente em elementos <iframe>para definir se as barras de rolagem deveriam aparecer. Ele aceitou os valores:
+
+"yes": Sempre aparecem as barras de rolagem.
+"no": Nunca aparecem as barras de rolagem.
+"auto": Mostra as barras de rolagem quando necessário.
+
+Personalizar a borda é nas CSSs
+
+name="frame"
+
+Ele name="frame"fornece um nome exclusivo para o iframe.
+
+O link ( <a href="..." target="frame">) usa o atributo targetpara direcionar o conteúdo para o iframe com o nome "frame".
+
+Ao clicar no link, o site será carregado dentro do iframe, em vez de abrir em uma nova página.
+
+Resumindo, o name permite que você controle o conteúdo que aparece no iframe a partir de outros elementos HTML.
+
+Proteção de Iframe
+
+Para poder dar uma proteção ao Iframe, use as seguintes configurações:
+
+Sandbox="sandbox"
+referrerpolicy="no-referer-when-dowgrade"
+
+    <iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referer-when-dowgrade">
+
+    </iframe>
+
+
+Valores que podem ser colocados no sandbox:
+
+allow="camera; microphone": Permite acesso à câmera e ao microfone.
+allow="fullscreen": Permite modo de tela cheia.
+
+allow-same-origin: Permite que o conteúdo trate a origem como a mesma que a página principal.
+allow-scripts: Permite execução de scripts (mas não abrir janelas).
+allow-popups: Permite abrir novas janelas ou guias.
+allow-forms: Permite envio de formulários.
+allow-modals: Permite exibir caixas de diálogo modais.
+allow-downloads: Permite downloads acionados pelo usuário.
+
+Valores que podem ser colocados no referrerpolicy:
+
+no-referer-when-dowgrade: Envia o cabeçalho Referer apenas se a navegação não rebaixar de HTTPS para HTTP. Isso evita vazamento de dados seguros para conexões inseguras.
+no-referrer: Não envia nenhum cabeçalho Referer.
+origin: Envia apenas a origem (sem o caminho completo).
+strict-origin-when-cross-origin: Envia o cabeçalho apenas para a mesma origem.
