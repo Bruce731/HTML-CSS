@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendedor.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Voltar</a>
+    </header>
+        <div>
+            <main>
+                <h1>Bem vindo</h1>
+                <h2>Faça login com seu RA para entrar no sistema</h2>
+                <hr>
+                <form action="cadastro.php">
+                        <p>
+                            <label for="iuser">Numero do RA:</label>
+                            <input type="" name="user" id="iuser" required minlength="8" maxlength="15" size="10" placeholder="Digite aqui..." autocomplete="country-name">
+                        </p>
+                        <p>
+                            <label for="isenha">Senha:</label>
+                            <input type="password" name="senha" id="isenha" required minlength="8" size="8" placeholder="Digite aqui..." autocomplete="current-password">
+                        </p>
+                        <input type="submit" value="Enviar" class="botoes">
+                        <input type="reset" value="Limpar" class="botoes">
+                </form>
+            </main>
+        </div>
+</body>
+</html>
