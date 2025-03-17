@@ -4,13 +4,20 @@
 }
 
 :root{
-    --azulSalotti: #213f6b;
-    --azul: #2584D8;
-    --azulEscuro: #0E2A54;
-}
+        --azulSalotti: #213f6b;
+        --azul: #2584D8;
+        --azulEscuro: #1b3d70;
+        --azulClaro: #4A90E2;
+        --azulCinza: #5A7081;
+        --azulCeleste: #87CEEB;
+        --azulMarinho: #1B3B6F;
+        --azulGelo: #E1EFF6;
+    }
+    
 
 body{
     background-color: var(--azulEscuro);
+    color: var(--azulGelo);
 }
 
 header{
@@ -21,7 +28,7 @@ header{
 }
 
 header h1 {
-    color: white;
+    color: var(--azulGelo);
     font-size: 3em;
     margin-bottom: 20px;
 
@@ -46,13 +53,48 @@ header div{
 }
 
 .infos a{
-    color: rgb(0, 0, 0);
+    color: var(--azulEscuro);
     text-decoration: none;
     font-size: 1.5em;
     margin-left: 1%;
     padding:6px 15px ;
-    background: white;
+    background: var(--azulClaro);
     border-radius: 10px;
 
+}
+
+div {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+}
+button.primary {
+    background-color: var(--azul);
+    color: var(--azulGelo);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button.primary:hover {
+    background-color: var(--azulClaro);
+}
+
+button.secondary {
+    background-color: var(--azulCinza);
+    color: var(--azulGelo);
+    padding: 8px 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: var(--azulMarinho);
+    color: var(--azulGelo);
+    padding: 20px;
+    text-align: center;
 }
 
