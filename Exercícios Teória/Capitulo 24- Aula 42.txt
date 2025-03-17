@@ -1,0 +1,70 @@
+Capitulo 24
+Aula 42
+
+Formulário
+
+Form = Criação de um formulário
+
+input-text = Para adicionar textos
+<input type="text" name="Nome" id="nome">
+
+input-submit = Colocar um botão de envio
+<input type="submit" value="Enviar">
+
+autocomplete="off"  Irá desativar a função de completar algum nome
+
+action="cadastro.php"  Irá ligar com o banco de dados
+
+Diferença de NAME para ID
+
+Name: é mais útil para linguagens como HTML, php
+
+ID: é mais utilizado em linguagens como JavaScript e Label
+
+Label
+No "For" sempre coloque o ID
+
+Para diferenciar o ID, usaremos o "i" antes do nome dele
+<label for="inome">Nome:</label>
+<input type="text" name="Nome" id="inome">
+
+
+SEMPRE USE LABEL
+Faz a relação com qual é o objeto de formulário e qual é a etiqueta dele, qual é a relação entre eles.
+
+Métodos de Segurança
+
+Get: É o método padrão, onde os dados ficam expostos na url. Ela pode ser usada como um jeito de compartilhar informações. Tem um limite de letras (Bytes) que podem ser utilizados, são 3.000
+Post:  É um método um pouco mais seguro, onde os dados não m expostos na url, mas ainda dá para ver ele no DevTools. Ele srá útil quando for usar dados sensíveis, como senhas, dados de cartões ETC.
+
+
+Senha:
+
+<label for="isenha">Senha:</label>
+<input type="password" name="Senha" id="isenha
+
+required
+
+Irá falar para colocar alguma coisa no campo em branco.
+
+minlength="8" 
+maxlength="15"
+
+Irá falar quantos caracteres é necessário para fazer login
+
+Size: tamanho da caixa de texto
+
+EX: size: 9
+
+A caixa mostrará apenas 9 caracateres por vez
+
+
+placeholder: Dá uma dica do que pode ser colocado dentro da caixa
+
+Autocomplete
+
+No form te q ta ativado
+
+Dentro do input irá simbolizar o que é terá dentro daquela caixa
+
+autocomplete="current-password"     fala q a caixa é de senha atual
