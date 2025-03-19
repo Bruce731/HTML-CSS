@@ -10,18 +10,35 @@
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
+                <option value="" selected>--- Escolha</option> <!-- Selected deixar a linha como padrão de escolha-->
                 <optgroup label="Região Sudeste">
-                    <option value="SP">São paulo</option>
+                    <option value="SP">São paulo</option> <!--Option é para deixar como opção na "lista"-->
                     <option value="RJ">Rio de Janeiro</option>
                     <option value="MG">Minas Gerais</option>
                 </optgroup>
 
-                <option value="Região Nordeste">
-                    <option value="RN">Rio Grnade do Norte</option>
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
                     <option value="PE">Pernambuco</option>
                     <option value="MA">Maranhão</option>
                 </option>
             </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilidade</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
         </p>
 
         <p>
