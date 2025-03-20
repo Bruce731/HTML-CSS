@@ -1,0 +1,45 @@
+Capitulo 24
+Aula 43
+
+Formulário
+
+Anotar as coisas da aula de number, month date e time; relefone e e-mail
+
+Anotação
+
+
+fieldset
+
+Cria uma caixa em volta do "formulário"
+
+legend
+
+Cria um titulo para o fieldset
+
+
+
+Checkbox
+
+São marcadores onde vc pode selecionar mais de uma opção
+
+EX:
+
+() Futebol
+() Basquete
+() Tenis
+() Natação
+
+Radio
+
+Tem a mesma propriedade do Checkbox, mas a única diferença é que vc só pode marca uma opção
+
+
+Input de cor
+
+Input de satisfação
+input type="range"
+
+Input de foto
+input type="file"
+
+input type="image" não deixa o visitante escolher, qm escolhe é o dev

@@ -1,0 +1,28 @@
+Capitulo 24
+Aula 44
+
+Select, Datalist e Textarea
+
+Select
+
+Basicamente é uma lista, onde ocupa menos espaço.
+
+Datalist
+
+Tem a mesma função do select, mas a diferença é que o visitante pode escrever 
+
+
+Textarea
+
+É uma área de texto, onde o visitante pode escrever mensagens
+
+Output
+
+Ele irá exibir o valor na tela, mas para isso é necessário usar JavaSript
+
+
+oninput
+
+É basicamente quando vc entra com um valor
+
+oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)
